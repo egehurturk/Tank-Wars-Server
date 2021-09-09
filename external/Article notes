@@ -1,0 +1,48 @@
+Follow these steps to start a successful software project
+---------------------------------------------------------
+* [CLEAN CODE] Define best practices and conventions
+* [PLANNING] Choose tools and apps
+* [PLANNING] VCS
+* [PLANNING] Create the optimal environment
+* [CLEAN CODE] Prepare the codebase and project folder structure (modules, packaging rules...) 
+* [PLANNING] Create a document that explains the conventions and development setup
+
+
+How to start a software development project
+-------------------------------------------
+* Set clear requirements
+* Develop the architecture
+
+
+How to plan a coding project 
+----------------------------
+* Plan the features
+* Build the subcomponents (not in code but pseudocode)
+* Clean and refactor code (the pseudocode)i
+
+
+System Design in Software Development
+-------------------------------------
+* Elements of a system:
+	- Architecture: model that defines structure and behaviour
+	- Module: components that handle one specific task in a system
+	- Components: related functions grouped
+	- Data: Management of information flow
+	- Interfaces: Shared boundry accross components of a system exchanging information
+
+* Tasks performed during system design process:
+	- Initialize design definition
+	- Establish design characteristics
+	- Manage the design
+
+* Sysetm design examples:
+	- MVC
+
+Defensive programming: the good, the bad and the ugly
+-----------------------------------------------------
+* Defensive programming: use guards and assertions
+* fail fast principle
+* repeated checks (same) can be eliminitaed via introducing new abstractions (e.g. class that checks
+	in initilaizer)
+* Define an optional type which allow to distinguish null and nonnullable things
+* use assertions to check outputs
